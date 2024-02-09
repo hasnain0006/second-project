@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+#all{
+    background-image: url("hasnain.jpg") ;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+}
+#main-box #sidebar-menue{
+    position: fixed;
+    height: 100vh;
+    width: 250px;
+    background: rgba(48, 58, 57, 0.452);
+    box-shadow: 0 0 8px rgb(241, 241, 241);
+    
+}
+#logo{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    box-shadow: 0 0 8px rgb(241, 241, 241);
+}
+#logo a{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    left: 50px;
+    line-height: 60px;
+    text-emphasis: none;
+}
+#menue{
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+#menue li{
+    margin-top: 6px;
+    padding: 20px 20px;
+}
+#menue i{
+    color: #ffffff;
+    font-size: 17px;
+}
+#menue a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: non;
+}
+li:hover{
+    border-left: 1px solid #fff;
+    box-shadow: 0 0 8px rgb(241, 241, 241);
+    width: 250px;
+
+    
+}
